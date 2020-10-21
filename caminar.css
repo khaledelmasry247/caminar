@@ -1,0 +1,100 @@
+body
+{
+
+background-image: url("images/bg.jpg");
+background-size: cover;
+background-size: center center;
+background-attachment: fixed;
+
+}
+.w-80{
+
+    width: 80%;
+}
+.w-85{
+
+    width: 85%;
+}
+.myitem p{
+line-height: 1.6rem;
+
+
+}
+.inner-container h2::after{
+
+ content:'';
+ width: 10%;
+ height: 1px;
+ background-color: white;
+ position: absolute;
+bottom:0px;
+ left: 45%;
+
+}
+
+.myitem{
+
+}
+.myitem h3{
+ position: relative;
+ 
+}
+.myitem h3::after{
+
+
+
+    content:'';
+    width: 10%;
+    height: 1px;
+    background-color: rgb(126, 123, 123);
+    position: absolute;
+    bottom:0px;
+    left: 45%;
+}
+
+
+ 
+
+
+}
+.inner-color{
+    background-color: #1E1F23;
+}
+.icon{
+
+    margin: 1rem;
+
+font-size: 30px;
+
+color: darkgray;
+}
+.main-color{
+    color: darkgray;
+}
+.clr{
+
+    background-color: #FFFFFF;
+}
+.part-clr{
+
+    background-color: #F9F8F6;
+}
+.blk-clr{
+
+    background-color: black;
+}
+
+@media all and (max-width:600px)
+{
+
+h1,h2,h3,h4{
+text-align: center;
+
+}
+ html{
+     font-size: 13px;
+ }
+
+
+
+}
